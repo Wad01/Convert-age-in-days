@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(67, 62, 62);
+}
+/*------------------------ task-1 -------------------------*/
+
+.container-1 {
+  width: 98%;
+  margin: auto;
+}
+.first-h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.first-h2:hover {
+  color: blueviolet;
+}
+
+.flex-box-container-1 {
+  display: flex;
+  border: 2px solid aliceblue;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-box-container-1 div {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.btn-primary {
+  background-color: rgb(115, 2, 228);
+  border: 1px solid rgb(34, 0, 113);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgb(111, 11, 199);
+  border: 1px solid rgb(33, 0, 111);
+}
+#flex-box-result-1 {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
